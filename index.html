@@ -1,0 +1,537 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lentes em Resina | Dr. Daniel Ferreira</title>
+<meta name="description" content="Lentes em resina com o Dr. Daniel Ferreira em Salvador. Resultado natural, sem desgaste do dente e pronto em uma única sessão. Agende sua avaliação gratuita.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<!-- [PENDENTE] Meta Pixel / Google Tag: inserir aqui antes de subir a campanha -->
+<style>
+  :root{
+    --ink:#15120F;
+    --ink-2:#221D18;
+    --ivory:#F7F2EB;
+    --sand:#ECE3D7;
+    --line:#DCCFBF;
+    --bronze:#A87A4B;
+    --bronze-deep:#7E5631;
+    --text:#2A241F;
+    --muted:#6E645B;
+    --on-dark:#F2EBE1;
+    --on-dark-muted:#B9AEA2;
+    --wa:#1FA855;
+    --radius:18px;
+    --max:1160px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:"DM Sans",system-ui,sans-serif;background:var(--ivory);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  img{max-width:100%;display:block}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+  h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;line-height:1.08;letter-spacing:-.01em}
+  h2{font-size:clamp(2rem,4.2vw,3.1rem)}
+  h2 em,h1 em{font-style:italic;font-weight:500;color:var(--bronze)}
+  .eyebrow{font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;font-weight:600;color:var(--bronze-deep);margin-bottom:14px;display:inline-block}
+  .dark .eyebrow{color:var(--bronze)}
+  section{padding:96px 0}
+  .dark{background:var(--ink);color:var(--on-dark)}
+  .dark p{color:var(--on-dark-muted)}
+  .sand{background:var(--sand)}
+  .lead{font-size:1.08rem;color:var(--muted);max-width:620px}
+
+  /* Botão */
+  .btn{display:inline-flex;align-items:center;gap:10px;background:var(--bronze);color:#fff;font-weight:600;font-size:1rem;padding:17px 30px;border-radius:999px;transition:transform .2s,background .2s;box-shadow:0 10px 30px -12px rgba(126,86,49,.6)}
+  .btn:hover{background:var(--bronze-deep);transform:translateY(-2px)}
+  .btn svg{width:20px;height:20px}
+  .btn-row{margin-top:40px}
+
+  /* Topo */
+  .topbar{background:var(--ink);color:var(--on-dark-muted);font-size:.8rem;text-align:center;padding:9px 16px}
+  header{position:sticky;top:0;z-index:50;background:rgba(247,242,235,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  header .wrap{display:flex;align-items:center;justify-content:space-between;height:72px}
+  .logo{font-family:"Cormorant Garamond",serif;font-size:1.45rem;font-weight:600;line-height:1}
+  .logo small{display:block;font-family:"DM Sans",sans-serif;font-size:.62rem;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);font-weight:500;margin-top:4px}
+  nav{display:flex;gap:30px;font-size:.92rem;font-weight:500}
+  nav a:hover{color:var(--bronze-deep)}
+  .nav-cta{padding:11px 20px;font-size:.88rem;box-shadow:none}
+
+  /* Hero */
+  .hero{padding:72px 0 96px}
+  .hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center}
+  .hero h1{font-size:clamp(2.5rem,5.4vw,4.3rem);margin-bottom:24px}
+  .hero .lead{margin-bottom:34px}
+  .badges{list-style:none;display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:30px;font-size:.92rem;font-weight:500}
+  .badges li{display:flex;align-items:center;gap:8px}
+  .badges li::before{content:"";width:18px;height:18px;border-radius:50%;background:var(--bronze) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5'/%3E%3C/svg%3E") center/11px no-repeat;flex:none}
+  .hero-media{position:relative}
+  .hero-media img{border-radius:28px;aspect-ratio:4/5;object-fit:cover;object-position:50% 50%;width:100%}
+  .hero-tag{position:absolute;left:-28px;bottom:36px;background:var(--ivory);border-radius:16px;padding:16px 20px;box-shadow:0 20px 50px -20px rgba(21,18,15,.45);display:flex;gap:14px;align-items:center}
+  .hero-tag strong{font-family:"Cormorant Garamond",serif;font-size:2.2rem;line-height:1;color:var(--bronze-deep)}
+  .hero-tag span{font-size:.82rem;line-height:1.35;color:var(--muted)}
+
+  /* Dor */
+  .pain .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:64px;align-items:center}
+  .pain img{border-radius:24px;aspect-ratio:1/1;object-fit:cover;object-position:50% 45%}
+  .pain p{margin-top:18px;font-size:1.05rem}
+  .pain p strong{color:var(--on-dark)}
+
+  /* O que é */
+  .what .wrap{max-width:900px;text-align:center}
+  .what .lead{margin:22px auto 0}
+  .facts{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:52px;text-align:left}
+  .fact{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:26px}
+  .fact b{font-family:"Cormorant Garamond",serif;font-size:2.4rem;font-weight:600;color:var(--bronze-deep);display:block;line-height:1}
+  .fact span{display:block;margin-top:8px;font-size:.95rem;color:var(--muted)}
+
+  /* Resultados */
+  .results .head{display:flex;justify-content:space-between;align-items:end;gap:32px;flex-wrap:wrap;margin-bottom:44px}
+  .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  .slot{aspect-ratio:4/3;border-radius:var(--radius);border:1.5px dashed var(--line);background:#fff;display:grid;place-items:center;text-align:center;color:var(--muted);font-size:.85rem;padding:20px}
+  .slot b{display:block;font-family:"Cormorant Garamond",serif;font-size:1.3rem;color:var(--text);margin-bottom:4px}
+
+  .ba{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:18px}
+  .ba figure,.smiles figure{position:relative;margin:0;border-radius:var(--radius);overflow:hidden;background:var(--ink)}
+  .ba img{width:100%;aspect-ratio:1/1;object-fit:cover;object-position:50% 74%}
+  .ba figcaption,.smiles figcaption{position:absolute;left:14px;top:14px;background:rgba(21,18,15,.72);color:var(--on-dark);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600;padding:7px 12px;border-radius:999px}
+  .ba figure:last-child figcaption{background:var(--bronze)}
+  .smiles{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  .smiles img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 45%}
+
+  /* Benefícios */
+  .benefits h2{max-width:640px}
+  .cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:48px}
+  .card{background:var(--ink-2);border:1px solid rgba(255,255,255,.07);border-radius:var(--radius);padding:30px 26px}
+  .card .ico{width:46px;height:46px;border-radius:12px;background:rgba(168,122,75,.16);display:grid;place-items:center;margin-bottom:22px}
+  .card .ico svg{width:22px;height:22px;stroke:var(--bronze)}
+  .card h3{font-size:1.5rem;color:var(--on-dark);margin-bottom:10px}
+  .card p{font-size:.94rem}
+
+  /* Passos */
+  .steps-head{text-align:center;max-width:720px;margin:0 auto 56px}
+  .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;counter-reset:s}
+  .step{position:relative;padding:30px 24px;border-radius:var(--radius);background:#fff;border:1px solid var(--line)}
+  .step .n{font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:var(--bronze-deep)}
+  .step h3{font-size:1.45rem;margin:12px 0 10px}
+  .step p{font-size:.94rem;color:var(--muted)}
+  .center{text-align:center}
+
+  /* Sobre */
+  .about .wrap{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+  .about p{margin-top:18px}
+  .stats{display:flex;gap:40px;margin:36px 0 8px;flex-wrap:wrap}
+  .stats b{font-family:"Cormorant Garamond",serif;font-size:3rem;font-weight:600;color:var(--bronze);line-height:1;display:block}
+  .stats span{font-size:.85rem;color:var(--on-dark-muted)}
+  .pillars{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .pillar{border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:22px}
+  .pillar h3{font-size:1.25rem;color:var(--on-dark);margin-bottom:6px}
+  .pillar p{margin:0;font-size:.9rem}
+
+  /* Doutor */
+  .doctor .wrap{display:grid;grid-template-columns:.85fr 1.15fr;gap:64px;align-items:center}
+  .portrait{width:100%;aspect-ratio:4/5;border-radius:28px;object-fit:cover;object-position:50% 30%}
+  .cert{display:flex;gap:18px;align-items:center;margin-top:28px;padding:16px;border:1px solid var(--line);border-radius:16px;background:#fff}
+  .cert img{width:76px;height:96px;object-fit:cover;object-position:30% 70%;border-radius:10px;flex:none}
+  .cert b{display:block;font-size:.95rem}
+  .cert span{font-size:.85rem;color:var(--muted)}
+  .about-img{width:100%;aspect-ratio:16/10;object-fit:cover;object-position:50% 40%;border-radius:20px;margin-bottom:14px}
+  .doctor h3{font-size:2.4rem;margin:6px 0 4px}
+  .doctor .role{color:var(--bronze-deep);font-weight:500;font-size:.95rem}
+  .doctor p{margin-top:18px;color:var(--muted)}
+
+  /* Avaliações */
+  .reviews .head{text-align:center;max-width:720px;margin:0 auto 40px}
+  .rv{display:grid;grid-template-columns:.8fr 1.2fr;gap:18px;align-items:stretch}
+  .rv-score{background:var(--ink);color:var(--on-dark);border-radius:var(--radius);padding:36px 32px;display:flex;flex-direction:column;justify-content:center;gap:10px}
+  .rv-score b{font-family:"Cormorant Garamond",serif;font-size:4.2rem;line-height:1;font-weight:600}
+  .stars{color:#F2B33D;letter-spacing:.12em;font-size:1.15rem}
+  .rv-score span{color:var(--on-dark-muted);font-size:.95rem}
+  .rv-score a{margin-top:10px;font-weight:600;font-size:.92rem;color:var(--bronze);text-decoration:underline;text-underline-offset:4px}
+  .rv-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:32px;display:flex;flex-direction:column;gap:14px}
+  .rv-card blockquote{font-family:"Cormorant Garamond",serif;font-size:1.55rem;line-height:1.3;color:var(--text)}
+  .rv-card footer{all:unset;display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:.88rem;color:var(--muted)}
+  .rv-card footer strong{color:var(--text)}
+
+  /* CTA final */
+  .final{text-align:center;background:var(--ink) radial-gradient(ellipse at 50% 0%,rgba(168,122,75,.28),transparent 60%)}
+  .final h2{color:var(--on-dark);max-width:760px;margin:0 auto}
+  .final p{max-width:560px;margin:20px auto 0}
+
+  /* FAQ */
+  .faq .wrap{max-width:820px}
+  .faq h2{text-align:center;margin-bottom:44px}
+  details{border-bottom:1px solid var(--line);padding:22px 0}
+  summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:20px;font-weight:600;font-size:1.06rem}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"+";font-family:"Cormorant Garamond",serif;font-size:1.8rem;line-height:.8;color:var(--bronze);transition:transform .25s;flex:none}
+  details[open] summary::after{transform:rotate(45deg)}
+  details p{margin-top:12px;color:var(--muted)}
+
+  /* Rodapé */
+  footer{background:var(--ink);color:var(--on-dark-muted);padding:64px 0 32px;font-size:.9rem}
+  footer .cols{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:40px;padding-bottom:40px;border-bottom:1px solid rgba(255,255,255,.08)}
+  footer .logo{color:var(--on-dark)}
+  footer h4{color:var(--on-dark);font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;margin-bottom:14px}
+  footer a:hover{color:var(--on-dark)}
+  footer .legal{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-top:24px;font-size:.8rem}
+
+  /* WhatsApp flutuante */
+  .wa-float{position:fixed;right:20px;bottom:20px;z-index:60;width:60px;height:60px;border-radius:50%;background:var(--wa);display:grid;place-items:center;box-shadow:0 12px 30px -8px rgba(0,0,0,.4);transition:transform .2s}
+  .wa-float:hover{transform:scale(1.07)}
+  .wa-float svg{width:30px;height:30px;fill:#fff}
+
+  /* Revelar ao rolar */
+  .reveal{opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s ease}
+  .reveal.in{opacity:1;transform:none}
+  @media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+
+  /* Responsivo */
+  @media (max-width:980px){
+    nav{display:none}
+    .hero .wrap,.pain .wrap,.about .wrap,.doctor .wrap{grid-template-columns:1fr;gap:40px}
+    .cards,.steps{grid-template-columns:1fr 1fr}
+    .hero-tag{left:16px}
+    .doctor .portrait{max-width:420px}
+  }
+  @media (max-width:640px){
+    section{padding:72px 0}
+    .wrap{padding:0 16px}
+    .hero{padding:40px 0 72px}
+    .facts,.cards,.steps,.pillars{grid-template-columns:1fr}
+    .ba,.smiles{gap:10px}
+    .smiles{grid-template-columns:1fr 1fr}
+    .smiles figure:last-child{grid-column:1/-1}
+    .smiles figure:last-child img{aspect-ratio:16/10;object-position:50% 40%}
+    .nav-cta{display:none}
+    .btn{width:100%;justify-content:center}
+    footer .cols{grid-template-columns:1fr}
+    .stats{gap:28px}
+    .rv{grid-template-columns:1fr}
+    .rv-card blockquote{font-size:1.3rem}
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">Mundo Plaza Empresarial · Av. Tancredo Neves, 620 · Caminho das Árvores, Salvador - BA</div>
+
+<header>
+  <div class="wrap">
+    <a href="#" class="logo">Dr. Daniel Ferreira<small>Odontologia estética</small></a>
+    <nav>
+      <a href="#resultados">Resultados</a>
+      <a href="#beneficios">Benefícios</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#agendamento">Agendamento</a>
+    </nav>
+    <a href="#" class="btn nav-cta js-wa">Agendar avaliação</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">Lentes em resina · Salvador</span>
+      <h1>O sorriso que você sempre quis, <em>pronto no mesmo dia.</em></h1>
+      <p class="lead">Com o Dr. Daniel Ferreira, suas lentes em resina são planejadas para o seu rosto: resultado natural, sem desgastar o dente e feitas em uma única sessão, conforme avaliação clínica.</p>
+      <a href="#" class="btn js-wa">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.3-.5.1-1 .1-3.3-.8-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.1 1.3Z"/></svg>
+        Agendar avaliação gratuita
+      </a>
+      <ul class="badges">
+        <li>Avaliação gratuita</li>
+        <li>Sem desgaste do dente</li>
+        <li>Condições facilitadas</li>
+      </ul>
+    </div>
+    <div class="hero-media reveal">
+      <img src="img/resina-estelite.jpg" alt="Sorriso com lentes em resina e a resina Estelite Bianco usada no procedimento">
+      <div class="hero-tag"><strong>+1.000</strong><span>pacientes<br>atendidos</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- DOR -->
+<section class="pain dark">
+  <div class="wrap">
+    <img class="reveal" src="img/macro-lentes.jpg" alt="Detalhe de lentes em resina feitas pelo Dr. Daniel Ferreira" loading="lazy">
+    <div class="reveal">
+      <span class="eyebrow">Seja sincero com você</span>
+      <h2>Você esconde o sorriso nas fotos?</h2>
+      <p>Dentes amarelados, pequenos, desalinhados ou desgastados fazem muita gente sorrir de boca fechada, desviar o rosto na foto e se sentir insegura até numa conversa. Com o tempo, isso pesa na autoestima.</p>
+      <p>Talvez você já tenha pensado em fazer lentes, mas tenha medo de ficar com aquele <strong>“dente de novela”</strong>, branco demais e artificial. Esse receio é justo, e é exatamente o que o Dr. Daniel evita.</p>
+      <p>Aqui, o objetivo é um sorriso bonito, natural e em harmonia com o seu rosto. Do tipo que parece que você nasceu com ele.</p>
+    </div>
+  </div>
+</section>
+
+<!-- O QUE É -->
+<section class="what">
+  <div class="wrap reveal">
+    <span class="eyebrow">Entenda o tratamento</span>
+    <h2>O que são as <em>lentes em resina</em></h2>
+    <p class="lead">As lentes em resina são camadas finas de resina composta, aplicadas e esculpidas diretamente sobre a parte da frente dos dentes. Elas corrigem cor, formato, tamanho e pequenas imperfeições, sem desgastar o seu dente natural. Diferente da porcelana, que é feita em laboratório, a resina é modelada na hora e fica pronta em uma única sessão.</p>
+    <div class="facts">
+      <div class="fact"><b>1 sessão</b><span>Você sai do consultório com o sorriso pronto.</span></div>
+      <div class="fact"><b>0 desgaste</b><span>Seu dente natural é preservado.</span></div>
+      <div class="fact"><b>5 a 6 anos+</b><span>De durabilidade média, com a manutenção certa.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- RESULTADOS -->
+<section id="resultados" class="sand">
+  <div class="wrap results">
+    <div class="head reveal">
+      <div>
+        <span class="eyebrow">Resultados</span>
+        <h2>Sorrisos naturais, <em>sem exagero</em></h2>
+      </div>
+      <p class="lead">Cada sorriso é planejado antes de qualquer material tocar o dente. Veja alguns casos do Dr. Daniel.</p>
+    </div>
+    <!-- Casos do Dr. Daniel. Confirmar autorização de imagem dos pacientes antes de publicar -->
+    <div class="ba reveal">
+      <figure><img src="img/caso-antes.jpg" alt="Paciente antes das lentes em resina" loading="lazy"><figcaption>Antes</figcaption></figure>
+      <figure><img src="img/caso-depois.jpg" alt="A mesma paciente depois das lentes em resina" loading="lazy"><figcaption>Depois</figcaption></figure>
+    </div>
+    <div class="smiles reveal">
+      <figure><img src="img/caso-sorriso-1.jpg" alt="Paciente sorrindo com lentes em resina" loading="lazy"></figure>
+      <figure><img src="img/caso-sorriso-2.jpg" alt="Paciente sorrindo com lentes em resina" loading="lazy"></figure>
+      <figure><img src="img/caso-sorriso-3.jpg" alt="Paciente sorrindo com lentes em resina" loading="lazy"></figure>
+    </div>
+    <div class="btn-row center"><a href="#" class="btn js-wa">Quero um resultado assim</a></div>
+  </div>
+</section>
+
+<!-- BENEFÍCIOS -->
+<section id="beneficios" class="dark benefits">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow">Benefícios</span>
+      <h2>O que as lentes em resina <em>fazem por você</em></h2>
+    </div>
+    <div class="cards">
+      <div class="card reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.4 5.6L20 9.3l-4.3 3.9 1.2 5.8L12 16.1 7.1 19l1.2-5.8L4 9.3l5.6-.7z"/></svg></div>
+        <h3>Resultado natural</h3>
+        <p>Cor escolhida para o seu tom de pele e formato que respeita seus dentes. Nada de branco artificial.</p>
+      </div>
+      <div class="card reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.5-3 8.3-7 10-4-1.7-7-5.5-7-10V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
+        <h3>Sem desgaste</h3>
+        <p>A resina é aplicada sobre o dente, sem precisar lixar a sua estrutura natural.</p>
+      </div>
+      <div class="card reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+        <h3>Pronto no mesmo dia</h3>
+        <p>Feito em uma única sessão. Você entra com a insegurança e sai sorrindo.</p>
+      </div>
+      <div class="card reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8z"/></svg></div>
+        <h3>Autoestima de volta</h3>
+        <p>Mais confiança para sorrir em fotos, conversas e no trabalho, sem pensar duas vezes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMO FUNCIONA -->
+<section id="como-funciona">
+  <div class="wrap">
+    <div class="steps-head reveal">
+      <span class="eyebrow">Como funciona</span>
+      <h2>Em <em>4 passos</em>, você conquista seu novo sorriso</h2>
+    </div>
+    <div class="steps">
+      <div class="step reveal">
+        <span class="n">1º passo</span>
+        <h3>Contato pelo WhatsApp</h3>
+        <p>Você fala com a nossa equipe e agenda sua avaliação gratuita no melhor horário para você.</p>
+      </div>
+      <div class="step reveal">
+        <span class="n">2º passo</span>
+        <h3>Avaliação e planejamento</h3>
+        <p>O Dr. Daniel entende o que te incomoda, avalia sua saúde bucal e planeja proporção, formato e cor do seu sorriso.</p>
+      </div>
+      <div class="step reveal">
+        <span class="n">3º passo</span>
+        <h3>Aplicação das lentes</h3>
+        <p>As lentes são esculpidas diretamente nos dentes, em uma única sessão, conforme as condições clínicas.</p>
+      </div>
+      <div class="step reveal">
+        <span class="n">4º passo</span>
+        <h3>Cuidados e manutenção</h3>
+        <p>Você recebe as orientações de cuidado e manutenção para o seu sorriso durar anos.</p>
+      </div>
+    </div>
+    <div class="btn-row center"><a href="#" class="btn js-wa">Agendar avaliação gratuita</a></div>
+  </div>
+</section>
+
+<!-- SOBRE / AUTORIDADE -->
+<section class="dark about">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow">Por que o Dr. Daniel</span>
+      <h2>Há mais de 10 anos criando <em>sorrisos naturais</em></h2>
+      <p>Lente em resina não é colocar “dente de mentira”. É planejamento, proporção e naturalidade. O Dr. Daniel estuda cada sorriso antes de tocar em qualquer material, porque estética sem técnica não dura.</p>
+      <div class="stats">
+        <div><b>10+</b><span>anos de experiência</span></div>
+        <div><b>1.000+</b><span>pacientes atendidos</span></div>
+        <div><b>1</b><span>sessão para ficar pronto</span></div>
+      </div>
+    </div>
+    <div class="reveal">
+      <img class="about-img" src="img/dr-daniel-avaliacao.jpg" alt="Dr. Daniel Ferreira avaliando o sorriso de uma paciente" loading="lazy">
+    <div class="pillars">
+      <div class="pillar"><h3>Planejamento</h3><p>Cada caso é estudado antes de qualquer intervenção. Nada no “achismo”.</p></div>
+      <div class="pillar"><h3>Cor sob medida</h3><p>O tom é escolhido para combinar com a sua pele e o seu rosto.</p></div>
+      <div class="pillar"><h3>Formato natural</h3><p>Respeito à anatomia dos seus dentes, sem exagero.</p></div>
+      <div class="pillar"><h3>Atendimento premium</h3><p>Atenção individual do primeiro contato à manutenção.</p></div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<!-- QUEM VAI CUIDAR -->
+<section class="doctor">
+  <div class="wrap">
+    <img class="portrait reveal" src="img/dr-daniel-atendimento.jpg" alt="Dr. Daniel Ferreira em atendimento" loading="lazy">
+    <div class="reveal">
+      <span class="eyebrow">Quem vai cuidar do seu sorriso</span>
+      <h3>Dr. Daniel Ferreira</h3>
+      <span class="role">Cirurgião-dentista · Odontologia estética · CRO-BA 21860</span>
+      <p>Com mais de 10 anos de atuação e mais de mil pacientes atendidos, o Dr. Daniel une técnica avançada e sensibilidade estética para entregar sorrisos naturais, em harmonia com o rosto de cada paciente.</p>
+      <p>Muita gente chega ao consultório achando que precisa de um tratamento longo e sai com uma solução mais simples e rápida. A forma de trabalhar é sempre a mesma: primeiro entender o que o seu sorriso realmente precisa, depois indicar o caminho certo.</p>
+      <div class="cert">
+        <img src="img/certificado-dent-raw.jpg" alt="Certificado do Método Dent Raw de fotografia odontológica" loading="lazy">
+        <div><b>Atualização constante</b><span>Certificado no Método Dent Raw de fotografia odontológica, em Salvador (setembro de 2026).</span></div>
+      </div>
+      <div class="btn-row"><a href="#" class="btn js-wa">Falar com a equipe do Dr. Daniel</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- AVALIAÇÕES -->
+<section class="sand reviews">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="eyebrow">Depoimentos</span>
+      <h2>O melhor reconhecimento é a <em>satisfação</em> de quem já passou por aqui</h2>
+    </div>
+    <!-- Avaliações reais do Google (copiadas do perfil). Para atualizar automaticamente, trocar este bloco pelo widget Trustindex -->
+    <div class="rv reveal">
+      <div class="rv-score">
+        <b>5,0</b>
+        <div class="stars" aria-label="5 de 5 estrelas">★★★★★</div>
+        <span>28 avaliações no Google</span>
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=Dr.+Daniel+Ferreira+Dentista+Mundo+Plaza+Salvador" target="_blank" rel="noopener">Ver todas as avaliações</a>
+      </div>
+      <figure class="rv-card">
+        <div class="stars" aria-label="5 de 5 estrelas">★★★★★</div>
+        <blockquote>“Dr. Daniel é um cara incrível, tem um trabalho muito meticuloso, está sempre perguntando o que o cliente achou, tentando entender a dor e supri-las. Música boa no ambiente e um trabalho incrível. Vale pelo resultado do trabalho e pela experiência. Gostei e recomendo muito.”</blockquote>
+        <footer><strong>Breno Costa</strong><span>Avaliação no Google</span></footer>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section id="agendamento" class="dark final">
+  <div class="wrap reveal">
+    <span class="eyebrow">Agendamento</span>
+    <h2>Chegou a hora de sorrir <em>sem pensar duas vezes.</em></h2>
+    <p>Não deixe a insegurança decidir por você. Agende sua avaliação gratuita e descubra se as lentes em resina são o caminho certo para o seu sorriso.</p>
+    <div class="btn-row"><a href="#" class="btn js-wa">Agendar avaliação gratuita</a></div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq">
+  <div class="wrap">
+    <h2 class="reveal">Dúvidas <em>frequentes</em></h2>
+    <div class="reveal">
+      <details>
+        <summary>As lentes em resina deixam o sorriso artificial?</summary>
+        <p>Não quando são bem planejadas. A cor, o formato e a proporção são definidos para o seu rosto antes do procedimento, justamente para evitar o “dente de novela”. O objetivo é um sorriso que pareça seu.</p>
+      </details>
+      <details>
+        <summary>Precisa desgastar os dentes?</summary>
+        <p>Não. As lentes em resina são aplicadas sobre o dente sem desgaste da estrutura natural. Essa é uma das principais diferenças em relação às lentes de porcelana.</p>
+      </details>
+      <details>
+        <summary>Quanto tempo duram as lentes em resina?</summary>
+        <p>Em média, de 5 a 6 anos ou mais, dependendo dos cuidados e da manutenção. Na avaliação, o Dr. Daniel explica como cuidar para o resultado durar.</p>
+      </details>
+      <details>
+        <summary>Em quanto tempo fica pronto?</summary>
+        <p>Em uma única sessão. Na maioria dos casos você sai do consultório no mesmo dia com o sorriso pronto, conforme a avaliação clínica.</p>
+      </details>
+      <details>
+        <summary>Qual a diferença entre resina e porcelana?</summary>
+        <p>A resina é feita em uma sessão, sem desgaste e com excelente custo-benefício. A porcelana é feita em laboratório, exige desgaste, tem custo maior e maior resistência. Na avaliação, você entende qual faz mais sentido para o seu caso.</p>
+      </details>
+      <details>
+        <summary>Tenho cárie ou outro problema. Posso fazer?</summary>
+        <p>Antes das lentes, sua saúde bucal precisa estar em dia. Se houver cárie ou inflamação, ela é tratada primeiro, para garantir um resultado bonito, seguro e duradouro.</p>
+      </details>
+      <details>
+        <summary>A avaliação é paga?</summary>
+        <p>Não. A avaliação é gratuita e presencial. É nela que o Dr. Daniel confirma se você é candidato às lentes em resina e apresenta o planejamento do seu sorriso.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <div class="logo">Dr. Daniel Ferreira<small style="color:var(--on-dark-muted)">Odontologia estética</small></div>
+        <p style="margin-top:18px;max-width:320px">Lentes em resina com resultado natural, sem desgaste e prontas em uma única sessão.</p>
+      </div>
+      <div>
+        <h4>Endereço</h4>
+        <p>Mundo Plaza Empresarial<br>Av. Tancredo Neves, 620 · Andar 25, Sala 2520<br>Caminho das Árvores, Salvador - BA<br>CEP 41820-020</p>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <p><a href="#" class="js-wa">WhatsApp: (71) 8437-9011</a></p>
+        <p><a href="https://www.instagram.com/dr.daniel_ferreira/" target="_blank" rel="noopener">@dr.daniel_ferreira</a></p>
+      </div>
+    </div>
+    <div class="legal">
+      <!-- [PENDENTE] Razão social / CNPJ -->
+      <span>Dr. Daniel Ferreira · 2026 · Responsável técnico: CRO-BA 21860</span>
+      <span>Desenvolvido por ACTS Move</span>
+    </div>
+  </div>
+</footer>
+
+<a href="#" class="wa-float js-wa" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.3-.5.1-1 .1-3.3-.8-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.1 1.3Z"/></svg>
+</a>
+
+<script>
+  // WhatsApp da clínica: +55 71 8437-9011 (formato 55 + DDD + número, só dígitos)
+  const WHATSAPP = "557184379011";
+  const MSG = "Olá! Vim pelo site e quero agendar minha avaliação gratuita de lentes em resina.";
+  const waUrl = "https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent(MSG);
+  document.querySelectorAll(".js-wa").forEach(a => {
+    a.href = waUrl;
+    a.target = "_blank";
+    a.rel = "noopener";
+  });
+
+  // Animação leve ao rolar
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } });
+  }, { threshold: .12 });
+  document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+</script>
+</body>
+</html>
