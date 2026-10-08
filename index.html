@@ -7,7 +7,7 @@
 <meta name="description" content="Lentes em resina com o Dr. Daniel Ferreira em Salvador, Lauro de Freitas, Senhor do Bonfim e Petrolina-PE. Resultado natural, sem desgaste do dente e pronto em uma única sessão. Agende sua avaliação gratuita.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <!-- [PENDENTE] Meta Pixel / Google Tag: inserir aqui antes de subir a campanha -->
 <style>
   :root{
@@ -27,16 +27,16 @@
     --wa-btn-hover:#11703A;
     --radius:18px;
     --max:1160px;
+    --font:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
   }
   *{box-sizing:border-box;margin:0;padding:0}
   html{scroll-behavior:smooth}
-  body{font-family:"DM Sans",system-ui,sans-serif;background:var(--ivory);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  body{font-family:var(--font);background:var(--ivory);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
   img{max-width:100%;display:block}
   a{color:inherit;text-decoration:none}
   .wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
-  h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;line-height:1.08;letter-spacing:-.01em}
-  h2{font-size:clamp(2rem,4.2vw,3.1rem)}
-  h2 em,h1 em{font-style:italic;font-weight:500;color:var(--bronze)}
+  h1,h2,h3{font-family:var(--font);font-weight:700;line-height:1.12;letter-spacing:-.02em;text-wrap:balance}
+  h2{font-size:clamp(1.75rem,3.4vw,2.6rem)}
   .eyebrow{font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;font-weight:600;color:var(--bronze-deep);margin-bottom:14px;display:inline-block;line-height:1.6}
   .dark .eyebrow{color:var(--bronze)}
   section{padding:96px 0}
@@ -55,8 +55,8 @@
   .topbar{background:var(--ink);color:var(--on-dark-muted);font-size:.8rem;text-align:center;padding:9px 16px}
   header{position:sticky;top:0;z-index:50;background:rgba(247,242,235,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
   header .wrap{display:flex;align-items:center;justify-content:space-between;height:72px}
-  .logo{font-family:"Cormorant Garamond",serif;font-size:1.45rem;font-weight:600;line-height:1}
-  .logo small{display:block;font-family:"DM Sans",sans-serif;font-size:.62rem;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);font-weight:500;margin-top:4px}
+  .logo{font-family:var(--font);font-size:1.2rem;font-weight:700;letter-spacing:-.01em;line-height:1}
+  .logo small{display:block;font-family:var(--font);font-size:.62rem;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);font-weight:500;margin-top:4px}
   nav{display:flex;gap:30px;font-size:.92rem;font-weight:500}
   nav a:hover{color:var(--bronze-deep)}
   .nav-cta{padding:11px 20px;font-size:.88rem;box-shadow:none}
@@ -64,7 +64,7 @@
   /* Hero */
   .hero{padding:72px 0 96px}
   .hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center}
-  .hero h1{font-size:clamp(2.5rem,5.4vw,4.3rem);margin-bottom:24px}
+  .hero h1{font-size:clamp(2.1rem,4.4vw,3.5rem);margin-bottom:22px;letter-spacing:-.025em}
   .hero .lead{margin-bottom:34px}
   .cities{margin-bottom:26px}
   .cities-label{display:block;font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;font-weight:600;color:var(--bronze-deep);margin-bottom:12px}
@@ -77,7 +77,7 @@
   .hero-media{position:relative}
   .hero-media img{border-radius:28px;aspect-ratio:4/5;object-fit:cover;object-position:50% 50%;width:100%}
   .hero-tag{position:absolute;left:-28px;bottom:36px;background:var(--ivory);border-radius:16px;padding:16px 20px;box-shadow:0 20px 50px -20px rgba(21,18,15,.45);display:flex;gap:14px;align-items:center}
-  .hero-tag strong{font-family:"Cormorant Garamond",serif;font-size:2.2rem;line-height:1;color:var(--bronze-deep)}
+  .hero-tag strong{font-family:var(--font);font-weight:800;font-size:1.7rem;line-height:1;color:var(--bronze-deep)}
   .hero-tag span{font-size:.82rem;line-height:1.35;color:var(--muted)}
 
   /* Dor */
@@ -91,15 +91,14 @@
   .what .lead{margin:22px auto 0}
   .facts{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:52px;text-align:left}
   .fact{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:26px}
-  .fact b{font-family:"Cormorant Garamond",serif;font-size:2.4rem;font-weight:600;color:var(--bronze-deep);display:block;line-height:1}
+  .fact b{font-family:var(--font);font-size:1.9rem;font-weight:800;letter-spacing:-.02em;color:var(--bronze-deep);display:block;line-height:1}
   .fact span{display:block;margin-top:8px;font-size:.95rem;color:var(--muted)}
 
   /* Resultados */
   .results .head{display:flex;justify-content:space-between;align-items:end;gap:32px;flex-wrap:wrap;margin-bottom:44px}
   .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
   .slot{aspect-ratio:4/3;border-radius:var(--radius);border:1.5px dashed var(--line);background:#fff;display:grid;place-items:center;text-align:center;color:var(--muted);font-size:.85rem;padding:20px}
-  .slot b{display:block;font-family:"Cormorant Garamond",serif;font-size:1.3rem;color:var(--text);margin-bottom:4px}
-
+  
   .ba{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:18px}
   .ba figure,.smiles figure{position:relative;margin:0;border-radius:var(--radius);overflow:hidden;background:var(--ink)}
   .ba img{width:100%;aspect-ratio:1/1;object-fit:cover;object-position:50% 74%}
@@ -114,7 +113,7 @@
   .card{background:var(--ink-2);border:1px solid rgba(255,255,255,.07);border-radius:var(--radius);padding:30px 26px}
   .card .ico{width:46px;height:46px;border-radius:12px;background:rgba(168,122,75,.16);display:grid;place-items:center;margin-bottom:22px}
   .card .ico svg{width:22px;height:22px;stroke:var(--bronze)}
-  .card h3{font-size:1.5rem;color:var(--on-dark);margin-bottom:10px}
+  .card h3{font-size:1.15rem;color:var(--on-dark);margin-bottom:10px}
   .card p{font-size:.94rem}
 
   /* Passos */
@@ -122,7 +121,7 @@
   .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;counter-reset:s}
   .step{position:relative;padding:30px 24px;border-radius:var(--radius);background:#fff;border:1px solid var(--line)}
   .step .n{font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:var(--bronze-deep)}
-  .step h3{font-size:1.45rem;margin:12px 0 10px}
+  .step h3{font-size:1.12rem;margin:12px 0 10px}
   .step p{font-size:.94rem;color:var(--muted)}
   .center{text-align:center}
 
@@ -130,11 +129,11 @@
   .about .wrap{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
   .about p{margin-top:18px}
   .stats{display:flex;gap:40px;margin:36px 0 8px;flex-wrap:wrap}
-  .stats b{font-family:"Cormorant Garamond",serif;font-size:3rem;font-weight:600;color:var(--bronze);line-height:1;display:block}
+  .stats b{font-family:var(--font);font-size:2.5rem;font-weight:800;letter-spacing:-.02em;color:var(--bronze);line-height:1;display:block}
   .stats span{font-size:.85rem;color:var(--on-dark-muted)}
   .pillars{display:grid;grid-template-columns:1fr 1fr;gap:14px}
   .pillar{border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:22px}
-  .pillar h3{font-size:1.25rem;color:var(--on-dark);margin-bottom:6px}
+  .pillar h3{font-size:1.02rem;color:var(--on-dark);margin-bottom:6px}
   .pillar p{margin:0;font-size:.9rem}
 
   /* Doutor */
@@ -145,7 +144,7 @@
   .cert b{display:block;font-size:.95rem}
   .cert span{font-size:.85rem;color:var(--muted)}
   .about-img{width:100%;aspect-ratio:16/10;object-fit:cover;object-position:50% 40%;border-radius:20px;margin-bottom:14px}
-  .doctor h3{font-size:2.4rem;margin:6px 0 4px}
+  .doctor h3{font-size:2rem;margin:6px 0 4px}
   .doctor .role{color:var(--bronze-deep);font-weight:500;font-size:.95rem}
   .doctor p{margin-top:18px;color:var(--muted)}
 
@@ -153,12 +152,12 @@
   .reviews .head{text-align:center;max-width:720px;margin:0 auto 40px}
   .rv{display:grid;grid-template-columns:.8fr 1.2fr;gap:18px;align-items:stretch}
   .rv-score{background:var(--ink);color:var(--on-dark);border-radius:var(--radius);padding:36px 32px;display:flex;flex-direction:column;justify-content:center;gap:10px}
-  .rv-score b{font-family:"Cormorant Garamond",serif;font-size:4.2rem;line-height:1;font-weight:600}
+  .rv-score b{font-family:var(--font);font-size:3.4rem;line-height:1;font-weight:800;letter-spacing:-.02em}
   .stars{color:#F2B33D;letter-spacing:.12em;font-size:1.15rem}
   .rv-score span{color:var(--on-dark-muted);font-size:.95rem}
   .rv-score a{margin-top:10px;font-weight:600;font-size:.92rem;color:var(--bronze);text-decoration:underline;text-underline-offset:4px}
   .rv-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:32px;display:flex;flex-direction:column;gap:14px}
-  .rv-card blockquote{font-family:"Cormorant Garamond",serif;font-size:1.55rem;line-height:1.3;color:var(--text)}
+  .rv-card blockquote{font-family:var(--font);font-size:1.12rem;line-height:1.6;color:var(--text)}
   .rv-card footer{all:unset;display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:.88rem;color:var(--muted)}
   .rv-card footer strong{color:var(--text)}
 
@@ -173,7 +172,7 @@
   details{border-bottom:1px solid var(--line);padding:22px 0}
   summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:20px;font-weight:600;font-size:1.06rem}
   summary::-webkit-details-marker{display:none}
-  summary::after{content:"+";font-family:"Cormorant Garamond",serif;font-size:1.8rem;line-height:.8;color:var(--bronze);transition:transform .25s;flex:none}
+  summary::after{content:"+";font-family:var(--font);font-size:1.5rem;font-weight:400;line-height:.9;color:var(--bronze);transition:transform .25s;flex:none}
   details[open] summary::after{transform:rotate(45deg)}
   details p{margin-top:12px;color:var(--muted)}
 
@@ -219,7 +218,7 @@
     .cities li{font-size:.88rem;padding:7px 13px 7px 10px}
     .cities ul{display:flex;flex-wrap:wrap}
     .rv{grid-template-columns:1fr}
-    .rv-card blockquote{font-size:1.3rem}
+    .rv-card blockquote{font-size:1.05rem}
   }
 </style>
 </head>
@@ -253,7 +252,7 @@
           <li>Petrolina-PE</li>
         </ul>
       </div>
-      <h1>O sorriso que você sempre quis, <em>em uma única sessão.</em></h1>
+      <h1>O sorriso que você sempre quis, em uma única sessão.</h1>
       <p class="lead">Suas lentes são planejadas para o seu rosto, com resultado natural e sem desgaste dos dentes.<br>Indicação e prazo definidos após avaliação clínica.</p>
       <a href="#" class="btn js-wa">
         <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.3-.5.1-1 .1-3.3-.8-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.1 1.3Z"/></svg>
@@ -290,7 +289,7 @@
 <section class="what">
   <div class="wrap reveal">
     <span class="eyebrow">Entenda o tratamento</span>
-    <h2>O que são as <em>lentes em resina</em></h2>
+    <h2>O que são as lentes em resina</h2>
     <p class="lead">As lentes em resina são camadas finas de resina composta, aplicadas e esculpidas diretamente sobre a parte da frente dos dentes. Elas corrigem cor, formato, tamanho e pequenas imperfeições, sem desgastar o seu dente natural. Diferente da porcelana, que é feita em laboratório, a resina é modelada na hora e fica pronta em uma única sessão.</p>
     <div class="facts">
       <div class="fact"><b>1 sessão</b><span>Você sai do consultório com o sorriso pronto.</span></div>
@@ -306,7 +305,7 @@
     <div class="head reveal">
       <div>
         <span class="eyebrow">Resultados</span>
-        <h2>Sorrisos naturais, <em>sem exagero</em></h2>
+        <h2>Sorrisos naturais, sem exagero</h2>
       </div>
       <p class="lead">Cada sorriso é planejado antes de qualquer material tocar o dente. Veja alguns casos do Dr. Daniel.</p>
     </div>
@@ -329,7 +328,7 @@
   <div class="wrap">
     <div class="reveal">
       <span class="eyebrow">Benefícios</span>
-      <h2>O que as lentes em resina <em>fazem por você</em></h2>
+      <h2>O que as lentes em resina fazem por você</h2>
     </div>
     <div class="cards">
       <div class="card reveal">
@@ -361,7 +360,7 @@
   <div class="wrap">
     <div class="steps-head reveal">
       <span class="eyebrow">Como funciona</span>
-      <h2>Em <em>4 passos</em>, você conquista seu novo sorriso</h2>
+      <h2>Em 4 passos, você conquista seu novo sorriso</h2>
     </div>
     <div class="steps">
       <div class="step reveal">
@@ -394,7 +393,7 @@
   <div class="wrap">
     <div class="reveal">
       <span class="eyebrow">Por que o Dr. Daniel</span>
-      <h2>Há mais de 10 anos criando <em>sorrisos naturais</em></h2>
+      <h2>Há mais de 10 anos criando sorrisos naturais</h2>
       <p>Lente em resina não é colocar “dente de mentira”. É planejamento, proporção e naturalidade. O Dr. Daniel estuda cada sorriso antes de tocar em qualquer material, porque estética sem técnica não dura.</p>
       <div class="stats">
         <div><b>10+</b><span>anos de experiência</span></div>
@@ -438,7 +437,7 @@
   <div class="wrap">
     <div class="head reveal">
       <span class="eyebrow">Depoimentos</span>
-      <h2>O melhor reconhecimento é a <em>satisfação</em> de quem já passou por aqui</h2>
+      <h2>O melhor reconhecimento é a satisfação de quem já passou por aqui</h2>
     </div>
     <!-- Avaliações reais do Google (copiadas do perfil). Para atualizar automaticamente, trocar este bloco pelo widget Trustindex -->
     <div class="rv reveal">
@@ -461,7 +460,7 @@
 <section id="agendamento" class="dark final">
   <div class="wrap reveal">
     <span class="eyebrow">Agendamento</span>
-    <h2>Chegou a hora de sorrir <em>sem pensar duas vezes.</em></h2>
+    <h2>Chegou a hora de sorrir sem pensar duas vezes.</h2>
     <p>Não deixe a insegurança decidir por você. Agende sua avaliação gratuita e descubra se as lentes em resina são o caminho certo para o seu sorriso.</p>
     <div class="btn-row"><a href="#" class="btn js-wa">Agendar avaliação gratuita</a></div>
   </div>
@@ -470,7 +469,7 @@
 <!-- FAQ -->
 <section class="faq">
   <div class="wrap">
-    <h2 class="reveal">Dúvidas <em>frequentes</em></h2>
+    <h2 class="reveal">Dúvidas frequentes</h2>
     <div class="reveal">
       <details>
         <summary>As lentes em resina deixam o sorriso artificial?</summary>
