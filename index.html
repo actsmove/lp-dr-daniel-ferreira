@@ -66,6 +66,11 @@
   .hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center}
   .hero h1{font-size:clamp(2.5rem,5.4vw,4.3rem);margin-bottom:24px}
   .hero .lead{margin-bottom:34px}
+  .cities{margin-bottom:26px}
+  .cities-label{display:block;font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;font-weight:600;color:var(--bronze-deep);margin-bottom:12px}
+  .cities ul{list-style:none;display:grid;grid-template-columns:repeat(2,max-content);gap:8px}
+  .cities li{display:flex;align-items:center;gap:7px;background:#fff;border:1.5px solid var(--bronze);color:var(--text);font-weight:600;font-size:.95rem;padding:8px 15px 8px 12px;border-radius:999px;white-space:nowrap}
+  .cities li::before{content:"";width:15px;height:15px;flex:none;background:var(--bronze);-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z'/%3E%3C/svg%3E") center/contain no-repeat;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z'/%3E%3C/svg%3E") center/contain no-repeat}
   .badges{list-style:none;display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:30px;font-size:.92rem;font-weight:500}
   .badges li{display:flex;align-items:center;gap:8px}
   .badges li::before{content:"";width:18px;height:18px;border-radius:50%;background:var(--bronze) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5'/%3E%3C/svg%3E") center/11px no-repeat;flex:none}
@@ -211,6 +216,8 @@
     .btn{width:100%;justify-content:center}
     footer .cols{grid-template-columns:1fr}
     .stats{gap:28px}
+    .cities li{font-size:.88rem;padding:7px 13px 7px 10px}
+    .cities ul{display:flex;flex-wrap:wrap}
     .rv{grid-template-columns:1fr}
     .rv-card blockquote{font-size:1.3rem}
   }
@@ -237,7 +244,15 @@
 <section class="hero">
   <div class="wrap">
     <div>
-      <span class="eyebrow">Atendimento em Salvador, Lauro de Freitas, Senhor do Bonfim e <span style="white-space:nowrap">Petrolina-PE</span></span>
+      <div class="cities">
+        <span class="cities-label">Atendimento em</span>
+        <ul>
+          <li>Salvador</li>
+          <li>Lauro de Freitas</li>
+          <li>Senhor do Bonfim</li>
+          <li>Petrolina-PE</li>
+        </ul>
+      </div>
       <h1>O sorriso que você sempre quis, <em>em uma única sessão.</em></h1>
       <p class="lead">Suas lentes são planejadas para o seu rosto, com resultado natural e sem desgaste dos dentes.<br>Indicação e prazo definidos após avaliação clínica.</p>
       <a href="#" class="btn js-wa">
